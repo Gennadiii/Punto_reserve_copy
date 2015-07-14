@@ -7,4 +7,4 @@ date.write(str(datetime.now().date()))
 date.close()
 
 shutil.copytree(os.path.expanduser(r'~\AppData\Roaming\Yandex\Punto Switcher\User Data'), \
-	os.path.expanduser(r'~\Dropbox\Volk\Back-up\punto' + '\\' + str(datetime.now().date())))
+	os.path.expanduser(r'~\Dropbox\Volk\Back-up\punto' + '\\' + str(datetime.now().date()) + '\\' + 'User Data'))
